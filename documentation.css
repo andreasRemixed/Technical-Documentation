@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  font-family: 'Roboto Slab', serif;
+}
+
+p, li, a {
+  font-family: 'Roboto', sans-serif;
+}
+
+code {
+  font-family: 'Roboto Mono', monospace;
+}
+
+#main-doc {
+  display: flex;
+}
+
+#navbar {
+  height: 100vh;
+}
+
+.nav-header {
+  position: fixed;
+}
+
+.nav-link {
+  display: block;
+  height: 50px;
+}

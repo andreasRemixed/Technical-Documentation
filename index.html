@@ -1,0 +1,116 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Roboto+Slab:700" rel="stylesheet">
+    <link rel="stylesheet" href="documentation.css">
+    <title>Technical Documentation</title>
+  </head>
+  <body>
+    <main id="main-doc">
+
+      <!-- NAVIGATION -->
+
+      <nav id="navbar">
+        <header class="nav-header">
+          <h1>CSS Layout Documentation</h1>
+        </header>
+        <a class="nav-link" href="#display">display</a>
+        <a class="nav-link" href="#position">position</a>
+        <a class="nav-link" href="#float">float</a>
+        <a class="nav-link" href="#flex">flex</a>
+        <a class="nav-link" href="#grid">grid</a>
+      </nav>
+
+      <!-- CONTENT -->
+
+
+      <div class="content">
+        <section class="main-section" id="display">
+        <header>
+          <h2>display</h2>
+        </header>
+        <code>
+          display: block;<br>
+          display: inline;<br>
+          display: run-in;<br>
+
+          display: flow;<br>
+          display: flow-root;<br>
+          display: table;<br>
+          display: flex;<br>
+          display: grid;<br>
+          display: ruby;<br>
+        </code>
+        <p>The display CSS property sets whether an element is treated as a block or inline element and the layout used for its children, such as grid or flex.</p>
+        <p>Formally, the display property sets an element's inner and outer display types. The outer type sets an element's participation in flow layout; the inner type sets the layout of children. Some values of display are fully defined in their own individual specifications; see the table at the end of this document for links to all relevant specifications. The full list of values is as below.</p>
+        <ul>
+          <li></li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="position">
+        <header>
+          <h2>position</h2>
+        </header>
+        <code>
+          position: static;<br>
+          position: relative;<br>
+          position: absolut;<br>
+          position: fixed;<br>
+          position: sticky;<br>
+        </code>
+        <p>The whole idea of positioning is to allow us to override the basic document flow behavior described above, to produce interesting effects. What if you want to slightly alter the position of some boxes inside a layout from their default layout flow position, to give a slightly quirky, distressed feel? Positioning is your tool. Or if you want to create a UI element that floats over the top of other parts of the page, and/or always sits in the same place inside the browser window no matter how much the page is scrolled? Positioning makes such layout work possible.</p>
+        <p>There are a number of different types of positioning that you can put into effect on HTML elements. To make a specific type of positioning active on an element, we use the position property.</p>
+        <ul>
+          <li></li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="float">
+        <header>
+          <h2>float</h2>
+        </header>
+        <code>
+          float: left;<br>
+          float: right;<br>
+          clear: left;<br>
+          clear: right;<br>
+          clear: both;<br>
+        </code>
+        <p>The float property was introduced to allow web developers to implement simple layouts involving an image floating inside a column of text, with the text wrapping around the left or right of it. The kind of thing you might get in a newspaper layout.</p>
+        <p>But web developers quickly realised that you can float anything, not just images, so the use of float broadened. Our fancy paragraph example from earlier in the course shows how you can use float in the creation of a fun drop-cap effect.</p>
+        <p>Floats have commonly been used to create entire web site layouts featuring multiple columns of information floated so they sit alongside one another (the default behaviour would be for the columns to sit below one another, in the same order as they appear in the source). There are newer, better layout techniques available and so use of floats in this way should be regarded as a legacy technique.</p>
+        <ul>
+          <li></li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="flex">
+        <header>
+          <h2>flex</h2>
+        </header>
+        <code>display: flex;</code>
+        <p>For a long time, the only reliable cross browser-compatible tools available for creating CSS layouts were things like floats and positioning. These are fine and they work, but in some ways they are also rather limiting and frustrating.</p>
+        <p>The following simple layout requirements are either difficult or impossible to achieve with such tools, in any kind of convenient, flexible way:</p>
+        <ul>
+          <li></li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="grid">
+        <header>
+          <h2>grid</h2>
+        </header>
+        <code>display: grid;</code>
+        <p>A grid is simply a collection of horizontal and vertical lines creating a pattern against which we can line up our design elements. They help us to create designs where elements don’t jump around or change width as we move from page to page, providing greater consistency on our websites.</p>
+        <p>A grid will typically have columns, rows, and then gaps between each row and column — commonly referred to as gutters.</p>
+        <ul>
+          <li></li>
+        </ul>
+      </section>
+    </div>
+    </main>
+  </body>
+</html>
